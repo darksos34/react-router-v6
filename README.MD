@@ -11,6 +11,7 @@
 For react-router-dom v5
 https://v5.reactrouter.com/web/api/Redirect
 
+```
 import { Redirect } from 'react-router-dom';
 
 <Redirect to="/somewhere/else" />
@@ -18,10 +19,12 @@ import { Redirect } from 'react-router-dom';
 <Route exact path="/">
   {loggedIn ? <Redirect to="/dashboard" /> : <PublicHomePage />}
 </Route>
+```
 
 For react-router-dom v6, simply replace Redirect with Navigate
 
 https://reactrouter.com/docs/en/v6/getting-started/overview
+```
 import { Navigate } from 'react-router-dom';
 
 { component: () => <Navigate to="/404" /> }
@@ -41,3 +44,5 @@ return (
             </Routes>
 
     );
+	
+```
