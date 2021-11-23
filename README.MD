@@ -31,10 +31,10 @@ import {
 
 return (
             <Routes>
-                <Route path='/products/:id' element={<Store/>} />
+                <Route path='/somewhere/:id' element={<Store/>} />
 
                  //replace Redirect with Navigate
-                <Route path="*" element={<Navigate to ="/products" />}/>
+                <Route path="*" element={<Navigate to ="/somewhere/else" />}/>
             </Routes>
 
     );
