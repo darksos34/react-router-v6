@@ -1,7 +1,8 @@
 # Admin Control Panel Frontend 
 - ReactJs v6
+- React Router
 
 ##Client
-- Updated **Server** on 23-11-2021
-- Created **Server** on 21-11-2021
+- Updated **Client** on 23-11-2021
+- Created **Client** on 21-11-2021
 
